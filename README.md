@@ -12,7 +12,7 @@
 
 <div align="center">
 
-## 🤗 Model Card: `sravani/aiml-engineer-v2026`
+## 🤗 Model Card: `sravani/aiml-Intern-2026`
 
 </div>
 
