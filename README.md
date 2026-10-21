@@ -1,224 +1,191 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0D1117,50:161B22,100:F97316&height=250&text=Asapani%20Sravani&fontSize=50&fontColor=FFD60A&animation=twinkling&desc=I%20build%20AI%20systems%20that%20work%20in%20production%20%E2%80%94%20from%20LLM%20agents%20to%20tiny%20edge%20devices&descSize=15&descAlignY=75" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9A7,100:845EC2&height=230&section=header&text=Asapani%20Sravani&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=From%20tiny%20sensors%20to%20LLM%20agents&descSize=20&descAlignY=58" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=F97316&center=true&vCenter=true&width=700&lines=Junior+AI%2FML+Engineer+%40+Innotrat+Labs+%F0%9F%A7%AA;Agentic+AI+%C2%B7+LangGraph+%C2%B7+LLMs+%C2%B7+REST+APIs;Edge+AI+%C2%B7+TinyML+%C2%B7+Computer+Vision;Open+to+AI%2FML+Engineer+Roles+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=00C9A7&center=true&vCenter=true&width=720&lines=Junior+AI%2FML+Engineer+%40+Innotrat+Labs;Agentic+AI+%C2%B7+LangGraph+%C2%B7+Qwen2.5+%C2%B7+Ollama;Edge+AI+%C2%B7+TinyML+on+STM32+%C2%B7+TensorFlow+Lite;Computer+Vision+%C2%B7+YOLO+%C2%B7+OpenCV+%C2%B7+MediaPipe;Open+to+AI%2FML+Engineer+roles" alt="Typing SVG" />
 
 </div>
 
 <br/>
 
-<!-- ============ MODEL CARD ============ -->
+## `$ whoami`
 
-<div align="center">
+```bash
+$ whoami
+asapani-sravani, Junior AI/ML Engineer @ Innotrat Labs, Chennai
 
-## 🤗 Model Card: `sravani/aiml-engineer-2026`
+$ cat focus.txt
+agentic AI   ->  LangGraph · Qwen2.5 · Ollama · tool execution · API integration
+edge AI      ->  STM32N6 · Arduino UNO Q · TensorFlow Lite · DeepFilterNet3
+vision       ->  YOLO · OpenCV · MediaPipe · real-time video
 
-</div>
+$ cat education.txt
+B.Tech CSE, GIET University (2022-2026), CGPA 8.09/10
 
-<table align="center">
-<tr>
-<td width="55%" valign="top">
-
-```yaml
-model_name: Asapani Sravani
-version: v2026 (B.Tech CSE, CGPA 8.09)
-base_model: GIET University, B.Tech CSE
-fine_tuned_at: Innotrat Labs (Junior AI/ML Engineer)
-
-architecture:
-  - Agentic AI (LangGraph, Qwen2.5, Ollama)
-  - GenAI apps (OpenAI API, Flask, MongoDB)
-  - Edge AI / TinyML (STM32N6, Arduino UNO Q, TFLite)
-  - Computer Vision (YOLO, OpenCV, MediaPipe)
-
-training_data:
-  - real systems built end to end
-  - sensor data, live video and audio streams
-  - production-style APIs and pipelines
-
-limitations:
-  - cannot stop building things
-  - gets restless when a model stays in a notebook
-
-license: open-to-work 🟢
-contact: asapanisravani49@gmail.com
+$ status
+open to work: AI/ML Engineer · Agentic AI · Edge AI
 ```
 
-</td>
-<td width="45%" valign="top">
+<br/>
 
-### 📊 Evaluation Results
+## 🧭 The spectrum I work across
 
-| Benchmark | Score |
-|:---|:---:|
-| ⚡ Document turnaround (GenAI offer-letter system) | **−60% time** |
-| 🎯 Women's safety detection (YOLO) | **90%+ accuracy** |
-| 🚨 Automated alerting (Twilio) | **sub-second** |
-| 🤟 Sign language recognition (after tuning) | **+20% accuracy** |
+Most AI engineers live in one layer. I like working across all of them, from a motion sensor on a microcontroller to an LLM agent calling APIs.
+
+```mermaid
+flowchart LR
+    subgraph HW["📟 Hardware"]
+        A["ADXL345 sensor<br/>STM32N6"]
+        B["Arduino UNO Q<br/>Soundskrit Mantis · ALSA"]
+    end
+    subgraph EDGE["⚡ Edge ML"]
+        C["TensorFlow Lite<br/>.tflite deployment"]
+        D["DeepFilterNet3<br/>noise suppression"]
+    end
+    subgraph AI["🧠 Intelligence"]
+        E["Computer Vision<br/>YOLO · OpenCV · MediaPipe"]
+        F["Agentic AI<br/>LangGraph · Qwen2.5 · Ollama"]
+    end
+    subgraph APP["🔌 Applications"]
+        G["Flask REST APIs<br/>MongoDB · SQL"]
+        H["OpenAI API · Twilio · SendGrid"]
+    end
+    A --> C
+    B --> D
+    E --> G
+    F --> G
+    G --> H
+```
+
+<sub>These are the layers I have worked in, shown as a map rather than one single system.</sub>
 
 <br/>
 
-<img src="https://img.shields.io/badge/status-open_to_work-success?style=for-the-badge"/>
+## 🖥️ Currently running
 
-</td>
-</tr>
-</table>
-
-<br/>
-
-<!-- ============ PIPELINE ============ -->
-
-<div align="center">
-
-## ⚙️ My ML Pipeline
-
-`raw idea` ➜ `research 📚` ➜ `prototype 🧪` ➜ `API + pipeline 🔧` ➜ `deploy to cloud or edge 🚀` ➜ `iterate ♻️`
-
-</div>
+```text
+PID   PROCESS                                      STATUS
+001   multi-agent RAG with a critic loop           building
+002   Docker + GCP deployment                      learning
+003   MLOps fundamentals                           learning
+004   your next AI/ML problem                      open slot
+```
 
 <br/>
 
-<!-- ============ WORK ============ -->
+## 💼 Work log: Innotrat Labs (Feb 2026 – Present)
 
-## 💼 What I Do at Innotrat Labs
-
-- 🤖 **Agentic AI:** workflows with tool execution and API integration using LangGraph, Qwen2.5 and Ollama
-- 📄 **GenAI:** an offer-letter system built with the OpenAI API, Flask, PyMuPDF, SendGrid and MongoDB, cutting turnaround time by 60%
-- 🔊 **Edge AI audio:** a real-time noise-suppression pipeline on Arduino UNO Q using Soundskrit Mantis, ALSA and DeepFilterNet3
-- 📟 **TinyML:** a sensor pipeline on STM32N6 with an ADXL345, from X/Y/Z motion data collection to TensorFlow Lite (`.tflite`) deployment
-
-<br/>
-
-<!-- ============ PROJECTS ============ -->
-
-## 🧪 Featured Experiments
-
-<table align="center">
-<tr>
-<td align="center" width="33%">
-
-### 🧠 Multi-Agent Document Intelligence
-RAG with planner, retriever, generator and critic agents, plus a self-verification loop
-<br/><br/>
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square"/> <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-
-</td>
-<td align="center" width="33%">
-
-### 🚨 Women Safety Analytics System
-Real-time unsafe-situation detection from live video with audio classification and automated Twilio alerts. **90%+ accuracy**
-<br/><br/>
-<img src="https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logoColor=black"/> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/> <img src="https://img.shields.io/badge/Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white"/>
-
-</td>
-<td align="center" width="33%">
-
-### 🤟 Real-Time Sign Language Detection
-Deep-learning gesture classifier using MediaPipe features, **+20% accuracy** through architecture and hyperparameter tuning
-<br/><br/>
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white"/> <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logoColor=white"/>
-
-</td>
-</tr>
-</table>
+| Area | What I built |
+|:---|:---|
+| 🤖 **Agentic AI** | Workflows with tool execution and API integration using Python, LangGraph, Qwen2.5 and Ollama |
+| 📄 **GenAI** | An offer-letter system with the OpenAI API, Flask, PyMuPDF, SendGrid and MongoDB, **cutting turnaround time by 60%** |
+| 🔊 **Edge AI audio** | A real-time noise-suppression pipeline on Arduino UNO Q using Soundskrit Mantis, PARDI, ALSA and DeepFilterNet3 |
+| 📟 **TinyML** | A sensor pipeline on STM32N6 with an ADXL345: X/Y/Z motion data collection, model training and TensorFlow Lite deployment |
 
 <br/>
 
-<!-- ============ STACK ============ -->
+## 🧪 Experiments (click to expand)
 
-<div align="center">
-
-## 🧰 The Stack Behind the Systems
-
-**🧠 LLMs & Agentic AI**
-
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white"/>
-<img src="https://img.shields.io/badge/Qwen2.5-6A3DE8?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-
-**👁️ ML & Computer Vision**
-
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white"/>
-<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
-<img src="https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logoColor=black"/>
-<img src="https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logoColor=white"/>
-
-**📟 Edge AI & Embedded**
-
-<img src="https://img.shields.io/badge/TensorFlow_Lite-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white"/>
-<img src="https://img.shields.io/badge/Arduino-00878F?style=for-the-badge&logo=arduino&logoColor=white"/>
-<img src="https://img.shields.io/badge/TinyML-EE4C2C?style=for-the-badge&logoColor=white"/>
-
-**🔧 Backend & Data**
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-
-**📈 Currently Learning**
-
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
-<img src="https://img.shields.io/badge/MLOps-0A66C2?style=for-the-badge"/>
-
-</div>
+<details>
+<summary><b>🧠 Multi-Agent Document Intelligence</b>: RAG that checks its own answers</summary>
 
 <br/>
 
-<!-- ============ EDUCATION ============ -->
+- **Idea:** most RAG demos retrieve once and answer. This one adds a critic that rejects unsupported answers and sends them back for another pass.
+- **Agents:** planner, retriever, generator and critic, orchestrated as a LangGraph state machine.
+- **Models:** Qwen2.5 and local embeddings through Ollama, with a Chroma vector store.
+- **Extras:** Flask `/query` API, a keyword-based evaluation harness, and two modes (research-paper Q&A and resume–job-description matching).
 
-## 🎓 Education & Certifications
+`Python` `LangGraph` `Ollama` `Qwen2.5` `ChromaDB` `Flask`
 
-- **B.Tech in Computer Science and Engineering**, GIET University (2022 – 2026), CGPA 8.09/10
+</details>
+
+<details>
+<summary><b>🚨 Women Safety Analytics System</b>: real-time threat detection with instant alerts</summary>
+
+<br/>
+
+- **Idea:** spot unsafe situations from live video and raise an alert without anyone having to press a button.
+- **Approach:** YOLO object detection and OpenCV on the video stream, plus audio classification, wired to the Twilio REST API for automated alerts.
+- **Result:** **over 90% detection accuracy** with **sub-second alerts**.
+
+`Python` `YOLO` `OpenCV` `Audio Classification` `Twilio`
+
+</details>
+
+<details>
+<summary><b>🤟 Real-Time Sign Language Detection</b>: gesture recognition with limited data</summary>
+
+<br/>
+
+- **Idea:** recognise hand gestures in real time even when training data is scarce.
+- **Approach:** MediaPipe-based feature extraction feeding a deep-learning classifier built in TensorFlow and Keras.
+- **Result:** **+20% recognition accuracy** through architecture and hyperparameter optimization, holding up on real-time video input.
+
+`Python` `TensorFlow` `Keras` `MediaPipe` `OpenCV`
+
+</details>
+
+<br/>
+
+## 🧰 Toolbox
+
+| Layer | Tools |
+|:---|:---|
+| 🧠 **LLMs & Agents** | `LangGraph` `Qwen2.5` `Ollama` `OpenAI API` |
+| 👁️ **ML & Vision** | `TensorFlow` `Keras` `Scikit-learn` `YOLO` `OpenCV` `MediaPipe` `NumPy` `Pandas` |
+| 📟 **Edge & Embedded** | `TinyML` `TensorFlow Lite` `STM32` `Arduino UNO Q` `ALSA` |
+| 🔧 **Backend & Data** | `Python` `SQL` `Flask` `REST APIs` `MongoDB` `Linux` |
+| 📈 **Learning now** | `Docker` `GCP` `MLOps` |
+| 🎓 **Core CS** | Data Structures & Algorithms · DBMS · Operating Systems · OOP |
+
+<br/>
+
+## 🛤️ Timeline
+
+| When | Milestone |
+|:---|:---|
+| 2020 – 2022 | Intermediate (MPC), 87.2% |
+| Sep 2022 | Started B.Tech in Computer Science and Engineering at GIET University |
+| Feb 2026 | Joined Innotrat Labs as Junior AI/ML Engineer |
+| May 2026 | Graduated, CGPA 8.09/10 |
+| Now | Building multi-agent systems and learning cloud deployment |
+
+<details>
+<summary><b>📜 Certifications</b></summary>
+
+<br/>
+
 - SQL and Computer Vision, Infosys Springboard
 - Python and Data Science, Udemy
 - MySQL Bootcamp, LetsUpgrade
 - HackerRank 5-Star Rating in Python
 
-<br/>
+</details>
 
-<!-- ============ STATS ============ -->
+<br/>
 
 <div align="center">
 
-## 📉 Training Logs (GitHub Stats)
+## 📈 GitHub Activity
 
-<img src="https://github-readme-stats.vercel.app/api?username=asapani-Sravani&show_icons=true&theme=gruvbox&hide_border=true&count_private=true" height="160"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=asapani-Sravani&theme=gruvbox&hide_border=true" height="160"/>
+<img src="https://github-readme-stats.vercel.app/api?username=asapani-Sravani&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=asapani-Sravani&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=asapani-Sravani&theme=gruvbox&hide_border=true&area=true" width="95%"/>
+<br/><br/>
 
-</div>
+## 📬 Let's build something
 
-<br/>
+I'm looking for **AI/ML Engineer, Agentic AI and Edge AI roles**.
 
-<!-- ============ CONTACT ============ -->
-
-<div align="center">
-
-## 🔌 Inference Endpoint (Reach Me)
-
-> 💼 Open to **AI/ML Engineer, Agentic AI and Edge AI roles**. Let's build real products together.
-
-<br/>
-
-<a href="mailto:asapanisravani49@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/asapani-sravani-3234922b7"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:asapanisravani49@gmail.com"><img src="https://img.shields.io/badge/Email-00C9A7?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/asapani-sravani-3234922b7"><img src="https://img.shields.io/badge/LinkedIn-845EC2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://github.com/asapani-Sravani"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=asapani-Sravani&style=for-the-badge&color=F97316&label=PROFILE+INFERENCES" alt="Profile views"/>
+<img src="https://komarev.com/ghpvc/?username=asapani-Sravani&style=flat-square&color=00C9A7&label=PROFILE+VIEWS" alt="Profile views"/>
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:F97316,100:0D1117&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:845EC2,100:00C9A7&height=110&section=footer" width="100%"/>
 
 </div>
